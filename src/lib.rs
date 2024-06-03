@@ -76,9 +76,7 @@ mod tests {
     }
 
     #[test]
-    fn fourth_while() {
-        assert_eq!(factorial_while(5), 120);
-    }
+    fn fourth_while() { assert_eq!(factorial_while(5), 120); }
 
     #[test]
     fn first_for() {
